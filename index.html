@@ -30,7 +30,7 @@
             </div>
 
             <div class="header-right">
-                <a href="#" class="calendar-link">
+                <a href="taqvim.html" class="calendar-link">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                         stroke-linecap="round" stroke-linejoin="round">
                         <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
@@ -140,14 +140,15 @@
             <div class="hero-visual" id="hero-slideshow">
                 <img src="./image.png" class="slide active" alt="Konservatoriya binosi">
             </div>
-            <div class="hero-content">
-                <span class="section-tag">An'ana va Mahorat</span>
-                <h1>O'zbekiston Davlat <br><span>Konservatoriyasi</span></h1>
-                <p>Musiqa san'atining buyuk o'tmishi va porloq kelajagi tutashgan maskan.</p>
-                <div class="hero-btns">
-                    <button class="btn-outline">TADKIROTNI BOSHLASH</button>
-                    <button class="btn-outline">VIRTUAL TUR</button>
-                </div>
+            <div class="hero-content" style="max-width: 900px; text-align: center;">
+                <blockquote style="border: none; padding: 0;">
+                    <p style="font-family: var(--font-serif); font-size: 2.8rem; font-style: italic; color: var(--primary-blue); line-height: 1.3; margin-bottom: 20px;">
+                        <span style="color: var(--accent-gold); font-size: 4rem; vertical-align: middle;">“</span>Musiqa fani va san’ati har bir insonni, ayniqsa, yoshlarimizni yuksak axloq, go‘zallik va nafosat ruhida tarbiyalashda qudratli vositadir.<span style="color: var(--accent-gold); font-size: 4rem; vertical-align: middle;">”</span>
+                    </p>
+                    <footer style="text-align: right; font-family: var(--font-sans); color: var(--accent-gold); font-weight: 700; letter-spacing: 2px; font-size: 0.9rem;">
+                        — SHAVKAT MIRZIYOYEV
+                    </footer>
+                </blockquote>
             </div>
         </section>
 
@@ -175,26 +176,27 @@
         </section>
 
         <!-- Talabalar Section -->
-        <section class="full-section students" id="section-talabalar"
-            style="background-image: url('https://images.unsplash.com/photo-1523240715632-d984723145e1?q=80&w=2070');">
-            <div class="section-overlay dark">
-                <div class="section-content-left">
-                    <span class="section-tag light">Talabalar uchun</span>
-                    <h2 style="color: white;">Talabalar <span>Hayoti</span></h2>
-                    <p>Dars jadvallari, grantlar, HEMIS tizimi va online kutubxonadan foydalanish imkoniyatlari.</p>
-                    <div class="link-grid">
-                        <a href="#" class="grid-link">Dars jadvallari</a>
-                        <a href="#" class="grid-link">Grantlar</a>
-                        <a href="#" class="grid-link">HEMIS Tizimi</a>
-                        <a href="#" class="grid-link">Online kutubxona</a>
+        <section class="full-section students" id="section-talabalar" style="background: linear-gradient(rgba(0, 46, 93, 0.85), rgba(0, 46, 93, 0.95)), url('https://images.unsplash.com/photo-1523240715632-d984723145e1?q=80&w=2070') center/cover fixed;">
+            <div class="container">
+                <div class="student-portal-layout" style="display: flex; justify-content: space-between; align-items: center; padding: 100px 0; gap: 60px;">
+                    <div class="portal-text" style="flex: 1; color: white;">
+                        <span class="section-tag light">Talabalar uchun</span>
+                        <h2 style="color: white; font-size: 3.5rem; margin-bottom: 20px;">Talabalar <span>Hayoti</span></h2>
+                        <p style="font-size: 1.1rem; opacity: 0.8; margin-bottom: 40px; max-width: 500px;">Barcha o'quv resurslari, dars jadvallari va xalqaro imkoniyatlar yagona portalda.</p>
+                        <div class="portal-links" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 40px;">
+                            <a href="#" style="color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0; font-weight: 600; font-size: 0.9rem; transition: 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='white'">Dars jadvallari →</a>
+                            <a href="#" style="color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0; font-weight: 600; font-size: 0.9rem; transition: 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='white'">Grantlar →</a>
+                            <a href="#" style="color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0; font-weight: 600; font-size: 0.9rem; transition: 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='white'">HEMIS Tizimi →</a>
+                            <a href="#" style="color: white; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0; font-weight: 600; font-size: 0.9rem; transition: 0.3s;" onmouseover="this.style.color='var(--accent-gold)'" onmouseout="this.style.color='white'">Online kutubxona →</a>
+                        </div>
+                        <button class="btn-outline light">PORTALGA KIRISH</button>
                     </div>
-                    <button class="btn-outline light">PORTALGA KIRISH</button>
-                </div>
-                <div class="featured-box">
-                    <span class="section-tag" style="color: var(--primary-blue);">Yangilik</span>
-                    <h3>Kelajakka <span>Qadam</span></h3>
-                    <p>Talabalarimiz uchun xalqaro tanlovlar va malaka oshirish dasturlari e'lon qilindi.</p>
-                    <a href="#">BATAFSIL ></a>
+                    <div class="portal-glass-card" style="width: 400px; background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.1); padding: 50px; border-radius: 5px; box-shadow: 0 20px 50px rgba(0,0,0,0.3);">
+                        <span class="section-tag" style="color: var(--accent-gold); margin-bottom: 20px;">DIQQAT</span>
+                        <h3 style="color: white; font-size: 1.8rem; margin-bottom: 15px;">Kelajakka <span>Qadam</span></h3>
+                        <p style="color: rgba(255,255,255,0.7); font-size: 1rem; margin-bottom: 30px;">Talabalarimiz uchun xalqaro tanlovlar va malaka oshirish dasturlari e'lon qilindi.</p>
+                        <a href="#" style="color: var(--accent-gold); text-decoration: none; font-weight: 800; font-size: 0.8rem; letter-spacing: 2px;">BATAFSIL MA'LUMOT →</a>
+                    </div>
                 </div>
             </div>
         </section>
