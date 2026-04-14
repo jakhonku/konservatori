@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yangiliklar | O'zbekiston Davlat Konservatoriyasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="inner-page">
+    <header class="main-header">
+        <div class="header-top">
+            <button class="menu-toggle" id="menu-toggle">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="7" x2="20" y2="7"></line>
+                    <line x1="4" y1="17" x2="20" y2="17"></line>
+                </svg>
+            </button>
+            <div class="header-logo">
+                <a href="index.html" class="logo-box">
+                    <img src="./Konservatoriya_logo_white-05.png" alt="O'zbekiston Davlat Konservatoriyasi Logotipi">
+                </a>
+            </div>
+            <div class="header-right">
+                <a href="index.html#calendar" class="calendar-link">
+                    <span>TADBIRLAR TAQVIMI</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-wrapper">
+            <div class="sidebar-main">
+                <div class="sidebar-header">
+                    <h2>MENYU</h2>
+                    <button class="close-sidebar" id="close-sidebar">&times;</button>
+                </div>
+                <nav class="main-nav-links">
+                    <button class="nav-item" data-target="kons-links">Konservatoriya</button>
+                    <button class="nav-item" data-target="axborot-links">Axborot xizmati</button>
+                </nav>
+            </div>
+            <div class="sidebar-secondary">
+                <div class="secondary-panel" id="axborot-links">
+                    <h3>Axborot xizmati</h3>
+                    <a href="yangiliklar.html">Yangiliklar</a>
+                    <a href="videogalereya.html">Videogalereya</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="content-wrapper">
+        <section class="page-hero">
+            <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 40px;">
+                <nav class="page-top-nav" style="display: flex; justify-content: space-between; align-items: center; padding-top: 40px; margin-bottom: 20px;">
+                    <ul class="breadcrumbs" style="display: flex; gap: 10px; list-style: none; font-size: 0.85rem;">
+                        <li><a href="index.html" style="color: var(--primary-blue); text-decoration: none;">Bosh sahifa</a></li>
+                        <li><a href="#" style="color: var(--primary-blue); text-decoration: none;">Axborot</a></li>
+                        <li style="color: var(--text-muted);">Yangiliklar</li>
+                    </ul>
+                    <a href="index.html" class="back-btn" style="display: flex; align-items: center; gap: 8px; color: var(--primary-blue); text-decoration: none; font-weight: 700; font-size: 0.8rem;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        ORQAGA QAYTISH
+                    </a>
+                </nav>
+                <div class="hero-text-wrap" style="padding-bottom: 40px;">
+                    <span class="section-tag">Axborot xizmati</span>
+                    <h1>So'nggi <span>Yangiliklar</span></h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="container">
+                <div class="news-feed" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px;">
+                    <article class="news-card" style="background: white; border: 1px solid #eee; overflow: hidden; transition: 0.3s;">
+                        <img src="https://images.unsplash.com/photo-1514320298324-ee4490b1e3b0?q=80&w=2070" style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 20px;">
+                            <span style="font-size: 0.8rem; color: var(--accent-gold); font-weight: 700;">12 APREL, 2026</span>
+                            <h3 style="margin: 10px 0; color: var(--primary-blue);">Xalqaro Teatr Kuni munosabati bilan tantanali kecha</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
