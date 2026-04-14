@@ -682,6 +682,146 @@ span {
   border-radius: 4px;
 }
 
+@media (max-width: 768px) {
+  /* Global Container */
+  .container {
+    padding: 0 20px;
+  }
+
+  /* Header & Navigation */
+  .header-right span {
+    display: none; /* Hide 'TADBIRLAR TAQVIMI' text, keep icon */
+  }
+
+  .calendar-link {
+    padding: 0 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    transform: translateY(-100%);
+  }
+
+  .sidebar.active {
+    transform: translateY(0);
+  }
+
+  .sidebar-wrapper {
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-main {
+    flex: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .sidebar-secondary {
+    flex: 1;
+    width: 100%;
+    padding: 30px 20px;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .nav-item {
+    font-size: 1.4rem;
+  }
+
+  /* Hero Quote */
+  .hero-content {
+    padding: 0 20px;
+  }
+
+  .hero-content blockquote p {
+    font-size: 1.6rem !important;
+    line-height: 1.4;
+  }
+
+  .hero-content blockquote p span {
+    font-size: 2.5rem !important;
+  }
+
+  /* Sections */
+  .split-section {
+    flex-direction: column !important;
+  }
+
+  .section-text-dark,
+  .section-image-feature {
+    width: 100% !important;
+    padding: 40px 20px !important;
+  }
+
+  .section-image-feature {
+    order: -1; /* Image first on mobile */
+  }
+
+  .student-portal-layout {
+    flex-direction: column !important;
+    padding: 60px 0 !important;
+    gap: 40px !important;
+  }
+
+  .portal-text,
+  .portal-glass-card {
+    width: 100% !important;
+  }
+
+  .portal-text h2 {
+    font-size: 2.5rem !important;
+  }
+
+  /* Taqvim (Calendar) */
+  .calendar-highlight-bar .container {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding: 20px !important;
+  }
+
+  .highlight-item {
+    border-left: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 0 15px 0 !important;
+  }
+
+  .filter-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .event-row {
+    flex-direction: column;
+  }
+
+  .date-col {
+    width: 100% !important;
+    flex-direction: row !important;
+    gap: 15px;
+    padding: 10px 20px !important;
+  }
+
+  .details-col {
+    grid-template-columns: 1fr !important;
+    padding: 20px !important;
+    gap: 15px;
+  }
+
+  .action-col {
+    text-align: left !important;
+    padding: 20px !important;
+    border-left: none !important;
+    border-top: 1px solid #eee;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero {
     flex-direction: column;
